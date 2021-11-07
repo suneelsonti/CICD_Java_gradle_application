@@ -10,7 +10,7 @@ pipeline{
         stage("Sonar Scan") {
             agent{
                 docker{
-                    iamge 'openjdk:11'
+                    image 'openjdk:11'
                 }
             }
             steps{
