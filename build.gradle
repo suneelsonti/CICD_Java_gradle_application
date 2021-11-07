@@ -28,7 +28,7 @@ test {
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://34.125.75.197:9000'
-        property 'sonar.login', '******'
+        property 'sonar.host.url', 'http://sunnyssonarserver.westus2.cloudapp.azure.com:9000'
+        property 'sonar.login', '6fdfc9fe3cccbfeac36edf09a8db3c2cf2099e7f'
     }
 }
