@@ -22,8 +22,8 @@ pipeline{
             
         }
             
-        }
     }
+}
     post{
         always{
             echo "========always========"
@@ -35,4 +35,3 @@ pipeline{
             echo "========pipeline execution failed========"
         }
     }
-}
