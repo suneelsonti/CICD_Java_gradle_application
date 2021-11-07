@@ -1,11 +1,12 @@
 pipeline{
     agent any
     stages{
-        stage("SCM_Checkout"){
+/*        stage("SCM_Checkout"){
             steps{
                 echo "Checking out code from Git"
 
             }
+        }  */   
         stage("Sonar Scan") {
             agent{
                 docker{
